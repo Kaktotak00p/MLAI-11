@@ -41,7 +41,6 @@ public class SoccerEnvController : MonoBehaviour
 
     private SoccerSettings m_SoccerSettings;
 
-
     private SimpleMultiAgentGroup m_BlueAgentGroup;
     private SimpleMultiAgentGroup m_PurpleAgentGroup;
 
@@ -100,18 +99,51 @@ public class SoccerEnvController : MonoBehaviour
     {
         if (scoredTeam == Team.Blue)
         {
+            // Blue team scored
+            foreach (var item in AgentsList)
+            {
+                if (item.Agent.team == Team.Blue)
+                {
+                    // Blue team agents get a reward for scoring
+                    item.Agent.GoalScored(Team.Blue);
+                }
+                else
+                {
+                    // Purple team agents get a penalty for conceding
+                    item.Agent.GoalScored(Team.Purple);
+                }
+            }
+
+            // Group rewards
             m_BlueAgentGroup.AddGroupReward(1 - (float)m_ResetTimer / MaxEnvironmentSteps);
             m_PurpleAgentGroup.AddGroupReward(-1);
         }
         else
         {
+            // Purple team scored
+            foreach (var item in AgentsList)
+            {
+                if (item.Agent.team == Team.Purple)
+                {
+                    // Purple team agents get a reward for scoring
+                    item.Agent.GoalScored(Team.Purple);
+                }
+                else
+                {
+                    // Blue team agents get a penalty for conceding
+                    item.Agent.GoalScored(Team.Blue);
+                }
+            }
+
+            // Group rewards
             m_PurpleAgentGroup.AddGroupReward(1 - (float)m_ResetTimer / MaxEnvironmentSteps);
             m_BlueAgentGroup.AddGroupReward(-1);
         }
+
+        // End the group episode and reset the scene
         m_PurpleAgentGroup.EndGroupEpisode();
         m_BlueAgentGroup.EndGroupEpisode();
         ResetScene();
-
     }
 
 

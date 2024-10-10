@@ -37,6 +37,8 @@ public class AgentSoccer : Agent
     float m_Existential;
     float m_LateralSpeed;
     float m_ForwardSpeed;
+    public float rewardForScoring = 1.0f;
+    public float penaltyForConceding = -1.0f;
 
 
     [HideInInspector]
@@ -140,6 +142,20 @@ public class AgentSoccer : Agent
         transform.Rotate(rotateDir, Time.deltaTime * 100f);
         agentRb.AddForce(dirToGo * m_SoccerSettings.agentRunSpeed,
             ForceMode.VelocityChange);
+    }
+
+    public void GoalScored(Team scoringTeam)
+    {
+        if (scoringTeam == team)
+        {
+            // Reward for scoring a goal
+            AddReward(rewardForScoring);
+        }
+        else
+        {
+            // Penalty for conceding a goal
+            AddReward(penaltyForConceding);
+        }
     }
 
     public override void OnActionReceived(ActionBuffers actionBuffers)
