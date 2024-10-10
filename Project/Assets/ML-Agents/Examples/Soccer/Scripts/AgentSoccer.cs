@@ -113,7 +113,7 @@ public class AgentSoccer : Agent
                 m_KickPower = 1f;
                 break;
             case 2:
-                dirToGo = transform.forward * -m_ForwardSpeed;
+                dirToGo = transform.forward * (-m_ForwardSpeed/2);
                 break;
         }
 
