@@ -2211,6 +2211,7 @@ GameObject:
   - component: {fileID: 9152743230243588598}
   - component: {fileID: 798330825103180240}
   - component: {fileID: 1423923476065512093}
+  - component: {fileID: 2130421109441249427}
   m_Layer: 0
   m_Name: PurpleStriker
   m_TagString: purpleAgent
@@ -2419,6 +2420,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &2130421109441249427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1095606497496374}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed2e4ad24e1eb14e9518987dc4e13ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hearingRange: 10
+  soundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1101518129530804
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,6 +2535,7 @@ GameObject:
   - component: {fileID: 114516244030127556}
   - component: {fileID: 404683423509059512}
   - component: {fileID: 8557426429796011212}
+  - component: {fileID: 4101603027173954548}
   m_Layer: 0
   m_Name: BlueStriker
   m_TagString: blueAgent
@@ -2705,6 +2723,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugCommandLineOverride: 
+--- !u!114 &4101603027173954548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1131626411948014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed2e4ad24e1eb14e9518987dc4e13ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hearingRange: 10
+  soundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &1141134673700168
 GameObject:
   m_ObjectHideFlags: 0
@@ -3238,9 +3272,9 @@ AudioSource:
   Priority: 128
   DopplerLevel: 1
   MinDistance: 1
-  MaxDistance: 500
+  MaxDistance: 5
   Pan2D: 0
-  rolloffMode: 0
+  rolloffMode: 2
   BypassEffects: 0
   BypassListenerEffects: 0
   BypassReverbZones: 0

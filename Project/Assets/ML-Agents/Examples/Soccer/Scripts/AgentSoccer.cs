@@ -111,11 +111,11 @@ public class AgentSoccer : Agent
         switch (forwardAxis)
         {
             case 1:
-                dirToGo = transform.forward * (m_ForwardSpeed*1.5f);
+                dirToGo = transform.forward * (m_ForwardSpeed * 1.5f);
                 m_KickPower = 1f;
                 break;
             case 2:
-                dirToGo = transform.forward * (-m_ForwardSpeed/2);
+                dirToGo = transform.forward * (-m_ForwardSpeed / 2);
                 break;
         }
 
