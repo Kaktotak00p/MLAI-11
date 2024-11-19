@@ -351,16 +351,64 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4859417942674614, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.028104309
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859417942674614, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.3298273
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859417942674614, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.7476459
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859417942674614, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.986511
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859417942674614, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.16365872
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859417942674614, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.0034661586
+      objectReference: {fileID: 0}
+    - target: {fileID: 4859417942674614, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.000044219192
+      objectReference: {fileID: 0}
+    - target: {fileID: 20622362340627540, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 114516244030127556, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: m_RayLength
       value: 36
       objectReference: {fileID: 0}
+    - target: {fileID: 114850431417842684, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 71380a05db02f164196e69942e31c909, type: 3}
     - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: MaxDistance
       value: 12
       objectReference: {fileID: 0}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 71380a05db02f164196e69942e31c909, type: 3}
     - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: rolloffMode
@@ -410,7 +458,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1009000884
 Transform:
   m_ObjectHideFlags: 0
