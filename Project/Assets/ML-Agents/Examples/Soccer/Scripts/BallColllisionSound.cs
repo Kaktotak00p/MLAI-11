@@ -12,7 +12,6 @@ public class BallCollisionSound : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        
         if (audioSource != null)
         {
             audioSource.Play();
