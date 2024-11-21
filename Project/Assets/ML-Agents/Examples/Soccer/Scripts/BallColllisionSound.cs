@@ -39,10 +39,10 @@ public class BallCollisionSound : MonoBehaviour
             SoundSensor sensor = agent.GetComponentInChildren<SoundSensor>();
             if (sensor != null && sensor.CanHearSound(transform.position))
             {
-                Debug.Log($"{agent.name} heard the sound!");
-                // Optionally trigger agent behavior here
+                // Pass the direction of the ball relative to the agent
+                Vector3 directionToBall = (transform.position - agent.transform.position).normalized;
+                sensor.ReceiveBallDirection(directionToBall);
             }
         }
     }
-
 }
