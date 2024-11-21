@@ -15,6 +15,7 @@ public class BallCollisionSound : MonoBehaviour
         if (audioSource != null)
         {
             audioSource.Play();
+            Debug.Log("Sound");
         }
 
         // Notify all agents about the sound
