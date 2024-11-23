@@ -2009,8 +2009,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4859417942674614}
   - component: {fileID: 20622362340627540}
+  - component: {fileID: 1707122913387206822}
   m_Layer: 0
-  m_Name: AgentCamera
+  m_Name: AgentCamera_B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2070,7 +2071,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294950911
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2082,6 +2083,14 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!81 &1707122913387206822
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032056389038868}
+  m_Enabled: 1
 --- !u!1 &1083582452036196
 GameObject:
   m_ObjectHideFlags: 0
@@ -2446,8 +2455,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4904293978873118}
   - component: {fileID: 20243662707170704}
+  - component: {fileID: 321189241352272842}
   m_Layer: 0
-  m_Name: AgentCamera
+  m_Name: AgentCamera_P
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2507,7 +2517,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294950911
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -2519,6 +2529,14 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!81 &321189241352272842
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1101518129530804}
+  m_Enabled: 1
 --- !u!1 &1131626411948014
 GameObject:
   m_ObjectHideFlags: 0
@@ -3223,6 +3241,9 @@ MonoBehaviour:
   envController: {fileID: 0}
   purpleGoalTag: purpleGoal
   blueGoalTag: blueGoal
+  RewardRule: 
+  randomizeBall: 0
+  kickforce: 10
 --- !u!54 &54100138833592438
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3884,8 +3905,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5868624583800292425}
   - component: {fileID: 5360408467290783020}
+  - component: {fileID: 4627757660449642841}
   m_Layer: 0
-  m_Name: AgentCamera
+  m_Name: AgentCamera_P (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3945,7 +3967,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294950911
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -3957,6 +3979,14 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!81 &4627757660449642841
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 742736642297762088}
+  m_Enabled: 1
 --- !u!1 &2016057044266316337
 GameObject:
   m_ObjectHideFlags: 0
@@ -3967,8 +3997,9 @@ GameObject:
   m_Component:
   - component: {fileID: 3343797950804926185}
   - component: {fileID: 7679702203014927471}
+  - component: {fileID: 6626049177347351638}
   m_Layer: 0
-  m_Name: AgentCamera
+  m_Name: AgentCamera_B (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4028,7 +4059,7 @@ Camera:
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
-    m_Bits: 4294950911
+    m_Bits: 4294967295
   m_RenderingPath: -1
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
@@ -4040,6 +4071,14 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!81 &6626049177347351638
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2016057044266316337}
+  m_Enabled: 1
 --- !u!1 &2329918556726399591
 GameObject:
   m_ObjectHideFlags: 0
