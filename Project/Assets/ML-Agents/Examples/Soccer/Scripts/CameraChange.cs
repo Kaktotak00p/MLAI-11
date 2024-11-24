@@ -13,7 +13,7 @@ public class CameraChange : MonoBehaviour
 		currentCameraIndex = 0;
 		
 		//Turn all cameras off, except the first default one
-		for (int i=1; i<cameras.Length; i++) 
+		for (int i=0; i<cameras.Length; i++) 
 		{
 			cameras[i].gameObject.SetActive(false);
         }
