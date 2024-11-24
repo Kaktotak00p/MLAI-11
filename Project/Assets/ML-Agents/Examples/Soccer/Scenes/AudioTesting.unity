@@ -120,6 +120,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &210787784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1682753582128710, guid: 54f3340298537426e96a6cc530e2d5d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 774084574}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &210787793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 210787784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4d1588087a2e464c986676d721fea25, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audioSource: {fileID: 0}
+  audioSource1: {fileID: 0}
 --- !u!1 &255077123
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,10 +404,20 @@ PrefabInstance:
       propertyPath: m_CullingMask.m_Bits
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 114273807544954564, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: kickforce
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273807544954564, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: randomizeBall
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 114516244030127556, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: m_RayLength
-      value: 36
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 114850431417842684, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
@@ -396,23 +426,33 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
+      propertyPath: Loop
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
       propertyPath: m_Resource
       value: 
-      objectReference: {fileID: 8300000, guid: 71380a05db02f164196e69942e31c909, type: 3}
+      objectReference: {fileID: 8300000, guid: 6667a2542a67341499a177a5e3848f94, type: 3}
     - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: MaxDistance
-      value: 12
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: m_audioClip
       value: 
-      objectReference: {fileID: 8300000, guid: 71380a05db02f164196e69942e31c909, type: 3}
+      objectReference: {fileID: 8300000, guid: 6667a2542a67341499a177a5e3848f94, type: 3}
     - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: rolloffMode
       value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5404720110592473505, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: 'cameras.Array.data[1]'
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8122248192225965164, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
@@ -429,6 +469,26 @@ PrefabInstance:
       propertyPath: AgentsList.Array.data[3].Agent
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 9155147506011241373, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: AudioTrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155147506011241373, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: TrainMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: df02640e90e569842b8eb3c966249537, type: 3}
+    - target: {fileID: 9155147506011241373, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: audioTrain
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9155147506011241373, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: BackgroundMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: df02640e90e569842b8eb3c966249537, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 1095606497496374, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
@@ -436,6 +496,10 @@ PrefabInstance:
     - {fileID: 6257467487437560250, guid: 54f3340298537426e96a6cc530e2d5d8, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1682753582128710, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 210787793}
     - targetCorrespondingSourceObject: {fileID: 1032056389038868, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       insertIndex: -1
@@ -593,6 +657,7 @@ GameObject:
   - component: {fileID: 1574236049}
   - component: {fileID: 1574236051}
   - component: {fileID: 1574236050}
+  - component: {fileID: 1574236052}
   m_Layer: 0
   m_Name: SoccerSettings
   m_TagString: Untagged
@@ -649,6 +714,21 @@ MonoBehaviour:
   blueMaterial: {fileID: 2100000, guid: c9fa44c2c3f8ce74ca39a3355ea42631, type: 2}
   randomizePlayersTeamForTraining: 0
   agentRunSpeed: 2
+--- !u!114 &1574236052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574236047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 045212d90db1b5347942b3d5d643afd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameras:
+  - {fileID: 1603803350}
+  - {fileID: 1009000887}
 --- !u!1 &1603803345 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1032056389038868, guid: 54f3340298537426e96a6cc530e2d5d8,
@@ -663,6 +743,12 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603803345}
   m_Enabled: 1
+--- !u!20 &1603803350 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 20622362340627540, guid: 54f3340298537426e96a6cc530e2d5d8,
+    type: 3}
+  m_PrefabInstance: {fileID: 774084574}
+  m_PrefabAsset: {fileID: 0}
 --- !u!850595691 &1909893171
 LightingSettings:
   m_ObjectHideFlags: 0

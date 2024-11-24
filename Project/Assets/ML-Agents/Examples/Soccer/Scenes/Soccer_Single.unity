@@ -435,8 +435,43 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 20622362340627540, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
+      propertyPath: field of view
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: 20622362340627540, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
       propertyPath: m_CullingMask.m_Bits
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 20622362340627540, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: m_projectionMatrixMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: m_Resource
+      value: 
+      objectReference: {fileID: 8300000, guid: 6667a2542a67341499a177a5e3848f94, type: 3}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: MaxDistance
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6667a2542a67341499a177a5e3848f94, type: 3}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: rolloffMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1287444006961661482, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: spreadCustomCurve.m_Curve.Array.data[0].value
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3343797950804926185, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}

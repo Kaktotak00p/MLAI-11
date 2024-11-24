@@ -1,12 +1,25 @@
+using System.Media;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class BallCollisionSound : MonoBehaviour
 {
     private AudioSource audioSource;
-
+    public bool audioTrain;
+     public AudioClip  TrainMusic; //It's only used when audioTrain is True
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
+        
+        if (audioTrain == true){
+            if (TrainMusic != null){
+                audioSource.clip = TrainMusic;
+                audioSource.Play();
+            }
+            else {
+                Debug.LogWarning("BackgroundMusic is empty");
+            }
+        }        
     }
 
     void OnCollisionEnter(Collision collision)
