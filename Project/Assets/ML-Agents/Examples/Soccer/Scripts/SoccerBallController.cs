@@ -10,7 +10,7 @@ public class SoccerBallController : MonoBehaviour
     public SoccerEnvController envController;
     public string purpleGoalTag; //will be used to check if collided with purple goal
     public string blueGoalTag; //will be used to check if collided with blue goal
-    public enum RewardRule{GoalTouch,BallTouch}//Will choose the reward rule to be applied
+    public enum RewardRule{BallTouch,GoalTouch}//Will choose the reward rule to be applied
     public RewardRule rewardRule;
     public bool randomizeBall; //if true, ball will be shoot at random direction at start of the game 
 
@@ -52,12 +52,15 @@ public class SoccerBallController : MonoBehaviour
                 }
                 break;
             case RewardRule.BallTouch:
-                if (col.gameObject.CompareTag("purpleAgent") || col.gameObject.CompareTag("blueAgent")  )
+                var agent = col.gameObject.GetComponent<AgentSoccer>();
+                if (agent != null)
                 {
-                    Debug.Log("Agent touched the ball!");
-                    envController.BallTouchedAgent();
+                    Debug.Log($"{agent.name} touched the ball!");
+                    envController.BallTouchedAgent(agent); 
                 }
                 break;
+            }
+            
         }
 
             // {
@@ -66,5 +69,4 @@ public class SoccerBallController : MonoBehaviour
             //         envController.BallTouched();
             //     }
             // }
-    }
 }
