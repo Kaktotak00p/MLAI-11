@@ -779,6 +779,7 @@ GameObject:
   - component: {fileID: 1574236049}
   - component: {fileID: 1574236051}
   - component: {fileID: 1574236050}
+  - component: {fileID: 1574236052}
   m_Layer: 0
   m_Name: SoccerSettings
   m_TagString: Untagged
@@ -835,6 +836,20 @@ MonoBehaviour:
   blueMaterial: {fileID: 2100000, guid: c9fa44c2c3f8ce74ca39a3355ea42631, type: 2}
   randomizePlayersTeamForTraining: 0
   agentRunSpeed: 2
+--- !u!114 &1574236052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1574236047}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 045212d90db1b5347942b3d5d643afd5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cameras:
+  - {fileID: 1009000887}
 --- !u!1001 &1606160104
 PrefabInstance:
   m_ObjectHideFlags: 0
