@@ -411,6 +411,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 114273807544954564, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
+      propertyPath: rewardRule
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114273807544954564, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
       propertyPath: randomizeBall
       value: 1
       objectReference: {fileID: 0}
