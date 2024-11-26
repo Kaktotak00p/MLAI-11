@@ -94,13 +94,22 @@ public class SoccerEnvController : MonoBehaviour
         ballRb.angularVelocity = Vector3.zero;
 
     }
-    public void BallTouchedAgent()
+    public void BallTouchedAgent(Agent agent)
     {
         // If agent touched the ball, give it a small reward
         // to-do reward for touching the ball and training
+        foreach(var item in AgentsList){
+            if(item.Agent.name == agent.name){
+                item.Agent.AddReward(0.5f);
+                Debug.Log($"{agent.name} got a reward!");
+
+            }
+        }
         ResetScene();
 
     }
+    
+    
     public void GoalTouched(Team scoredTeam)
     {
         if (scoredTeam == Team.Blue)
