@@ -74,7 +74,7 @@ internal class SoundObservationSensor : ISensor
         writer.Add(ballDirection); // X component
         // Z component
 
-        Debug.Log($"Writing observation: {ballDirection}");
+        //Debug.Log($"Writing observation: {ballDirection}");
 
         return 3; // Number of observations written
     }
