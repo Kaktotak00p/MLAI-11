@@ -49,8 +49,8 @@ public class AgentSoccer : Agent
     public float rotSign;
 
     EnvironmentParameters m_ResetParams;
-    private Transform ballTransform; 
-    private Vector3 lastPosition; 
+    private Transform ballTransform;
+    private Vector3 lastPosition;
     public override void Initialize()
     {
         SoccerEnvController envController = GetComponentInParent<SoccerEnvController>();
@@ -98,6 +98,11 @@ public class AgentSoccer : Agent
 
         m_ResetParams = Academy.Instance.EnvironmentParameters;
         lastPosition = transform.position;
+    }
+
+    private void Update()
+    {
+        AddReward(1f);
     }
 
     public void MoveAgent(ActionSegment<int> act)
@@ -174,7 +179,7 @@ public class AgentSoccer : Agent
         {
             // Existential penalty for Strikers
             AddReward(-m_Existential);
-        }        
+        }
         RewardForBallDirection();
 
         MoveAgent(actionBuffers.DiscreteActions);
@@ -191,16 +196,17 @@ public class AgentSoccer : Agent
         Vector3 movementDirection = (transform.position - lastPosition).normalized;
 
         // Check if the agent is moving towards the ball
-        float dotProduct = Vector3.Dot(movementDirection, toBall);
-
-        if (dotProduct > 0) // Moving towards the ball
-        {
-            AddReward(0.1f);
-        }
-        else if (dotProduct < 0) // Moving away from the ball
-        {
-            AddReward(-0.1f);
-        }
+        // float dotProduct = Vector3.Dot(movementDirection, toBall);
+        float distanceToBall = Vector3.Distance(transform.position, ballTransform.position);
+        AddReward(-distanceToBall);
+        // if (dotProduct > 0) // Moving towards the ball
+        // {
+        //     AddReward(0.1f * distanceToBall);
+        // }
+        // else if (dotProduct < 0) // Moving away from the ball
+        // {
+        //     AddReward(-0.1f * distanceToBall);
+        // }
 
         // Update last position for the next frame
         lastPosition = transform.position;

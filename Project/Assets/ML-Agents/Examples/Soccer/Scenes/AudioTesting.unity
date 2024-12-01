@@ -138,8 +138,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b4d1588087a2e464c986676d721fea25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  audioSource: {fileID: 0}
-  audioSource1: {fileID: 0}
 --- !u!1 &255077123
 GameObject:
   m_ObjectHideFlags: 0
@@ -407,7 +405,7 @@ PrefabInstance:
     - target: {fileID: 114273807544954564, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: kickforce
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114273807544954564, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
@@ -417,7 +415,7 @@ PrefabInstance:
     - target: {fileID: 114273807544954564, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: randomizeBall
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114516244030127556, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
@@ -454,10 +452,20 @@ PrefabInstance:
       propertyPath: rolloffMode
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 4101603027173954548, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: hearingRange
+      value: 200
+      objectReference: {fileID: 0}
     - target: {fileID: 5404720110592473505, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}
       propertyPath: 'cameras.Array.data[1]'
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8122248192225965164, guid: 54f3340298537426e96a6cc530e2d5d8,
+        type: 3}
+      propertyPath: AgentsList.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8122248192225965164, guid: 54f3340298537426e96a6cc530e2d5d8,
         type: 3}

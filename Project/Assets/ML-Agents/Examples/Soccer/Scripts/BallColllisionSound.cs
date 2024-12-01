@@ -45,6 +45,10 @@ public class BallCollisionSound : MonoBehaviour
         NotifyAgentsAboutSound();
     }
 
+    private void Update() {
+        NotifyAgentsAboutSound();
+    }
+
     private void NotifyAgentsAboutSound()
     {
         // Find all agents with the BlueAgent tag
