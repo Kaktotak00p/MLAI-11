@@ -1,0 +1,66 @@
+{
+    "SoccerTwos": {
+        "checkpoints": [
+            {
+                "steps": 499979,
+                "file_path": "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-499979.onnx",
+                "reward": -60719.99808175223,
+                "creation_time": 1733180590.6925442,
+                "auxillary_file_paths": [
+                    "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-499979.pt"
+                ]
+            },
+            {
+                "steps": 500043,
+                "file_path": "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-500043.onnx",
+                "reward": -60719.99808175223,
+                "creation_time": 1733180590.7689242,
+                "auxillary_file_paths": [
+                    "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-500043.pt"
+                ]
+            },
+            {
+                "steps": 500043,
+                "file_path": "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-500043.onnx",
+                "reward": null,
+                "creation_time": 1733180737.139737,
+                "auxillary_file_paths": [
+                    "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-500043.pt"
+                ]
+            },
+            {
+                "steps": 500043,
+                "file_path": "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-500043.onnx",
+                "reward": null,
+                "creation_time": 1733180874.3094285,
+                "auxillary_file_paths": [
+                    "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-500043.pt"
+                ]
+            },
+            {
+                "steps": 504391,
+                "file_path": "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-504391.onnx",
+                "reward": -94897.59114583333,
+                "creation_time": 1733181068.865732,
+                "auxillary_file_paths": [
+                    "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-504391.pt"
+                ]
+            }
+        ],
+        "final_checkpoint": {
+            "steps": 504391,
+            "file_path": "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos.onnx",
+            "reward": -94897.59114583333,
+            "creation_time": 1733181068.865732,
+            "auxillary_file_paths": [
+                "ml-agents\\mlagents\\trainers\\tests\\results\\g_test_1\\SoccerTwos\\SoccerTwos-504391.pt"
+            ]
+        },
+        "elo": 1200.0
+    },
+    "metadata": {
+        "stats_format_version": "0.3.0",
+        "mlagents_version": "1.1.0",
+        "torch_version": "2.5.1+cpu"
+    }
+}
