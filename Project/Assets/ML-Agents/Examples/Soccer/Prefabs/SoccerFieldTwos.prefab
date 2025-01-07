@@ -2753,7 +2753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ed2e4ad24e1eb14e9518987dc4e13ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hearingRange: 10
+  hearingRange: 15
   soundLayer:
     serializedVersion: 2
     m_Bits: 0
