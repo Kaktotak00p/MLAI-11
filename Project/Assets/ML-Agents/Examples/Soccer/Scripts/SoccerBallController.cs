@@ -56,7 +56,7 @@ public class SoccerBallController : MonoBehaviour
                 if (agent != null)
                 {
                     Debug.Log($"{agent.name} touched the ball!");
-                    envController.BallTouchedAgent(agent); 
+                    // envController.BallTouchedAgent(agent); 
                 }
                 break;
             }

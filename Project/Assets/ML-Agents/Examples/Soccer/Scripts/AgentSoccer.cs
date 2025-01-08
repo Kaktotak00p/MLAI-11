@@ -175,7 +175,7 @@ public class AgentSoccer : Agent
             // Existential penalty for Strikers
             AddReward(-m_Existential);
         }        
-        RewardForBallDirection();
+        // RewardForBallDirection();
 
         MoveAgent(actionBuffers.DiscreteActions);
     }

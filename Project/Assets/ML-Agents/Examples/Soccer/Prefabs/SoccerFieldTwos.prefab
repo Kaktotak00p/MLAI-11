@@ -2353,7 +2353,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1095606497496374}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
   m_Name: 
@@ -2441,7 +2441,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ed2e4ad24e1eb14e9518987dc4e13ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hearingRange: 10
+  hearingRange: 15
   soundLayer:
     serializedVersion: 2
     m_Bits: 0
@@ -2686,7 +2686,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1131626411948014}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6bb6b867a41448888c1cd4f99643ad71, type: 3}
   m_Name: 
@@ -4495,6 +4495,7 @@ GameObject:
   - component: {fileID: 8734522883866558980}
   - component: {fileID: 6283479335904612434}
   - component: {fileID: 5226711750219303593}
+  - component: {fileID: 3726118419520350532}
   m_Layer: 0
   m_Name: PurpleStriker (1)
   m_TagString: purpleAgent
@@ -4703,6 +4704,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &3726118419520350532
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6257467487437560250}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed2e4ad24e1eb14e9518987dc4e13ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hearingRange: 15
+  soundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &6442519122303792292
 GameObject:
   m_ObjectHideFlags: 0
@@ -5065,6 +5082,7 @@ GameObject:
   - component: {fileID: 1018414316889932458}
   - component: {fileID: 6939753220642424022}
   - component: {fileID: 9055048721673082488}
+  - component: {fileID: 8651484582696018238}
   m_Layer: 0
   m_Name: BlueStriker (1)
   m_TagString: blueAgent
@@ -5273,6 +5291,22 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8651484582696018238
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8360301818957399454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ed2e4ad24e1eb14e9518987dc4e13ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hearingRange: 15
+  soundLayer:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!1 &8673569163220857793
 GameObject:
   m_ObjectHideFlags: 0
