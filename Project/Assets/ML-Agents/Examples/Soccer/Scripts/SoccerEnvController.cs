@@ -94,6 +94,8 @@ public class SoccerEnvController : MonoBehaviour
         ballRb.angularVelocity = Vector3.zero;
 
     }
+
+    //not in use right now
     public void BallTouchedAgent(Agent agent)
     {
         // If agent touched the ball, give it a small reward
