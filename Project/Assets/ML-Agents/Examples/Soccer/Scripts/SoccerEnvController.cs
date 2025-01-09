@@ -101,7 +101,7 @@ public class SoccerEnvController : MonoBehaviour
         // If agent touched the ball, give it a small reward
         foreach(var item in AgentsList){
             if(item.Agent.name == agent.name){
-                item.Agent.AddReward(0.5f);
+                item.Agent.AddReward(0.1f);
                 Debug.Log($"{agent.name} got a reward!");
 
             }

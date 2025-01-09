@@ -37,7 +37,7 @@ public class AgentSoccer : Agent
     float m_Existential;
     float m_LateralSpeed;
     float m_ForwardSpeed;
-    public float rewardForScoring = 1.0f;
+    public float rewardForScoring = 2.0f;
     public float penaltyForConceding = -1.0f;
 
 

@@ -55,14 +55,14 @@ public class SoccerBallController : MonoBehaviour
             //case for adding reward upon touching ball removed
 
             
-            // case RewardRule.BallTouch:
-            //     var agent = col.gameObject.GetComponent<AgentSoccer>();
-            //     if (agent != null)
-            //     {
-            //         Debug.Log($"{agent.name} touched the ball!");
-            //         envController.BallTouchedAgent(agent); 
-            //     }
-            //     break;
+            case RewardRule.BallTouch:
+                var agent = col.gameObject.GetComponent<AgentSoccer>();
+                if (agent != null)
+                {
+                    Debug.Log($"{agent.name} touched the ball!");
+                    envController.BallTouchedAgent(agent); 
+                }
+                break;
             }
             
         }
