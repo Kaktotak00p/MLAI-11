@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {2}Methods}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Method for Learning Algorithm Parameters Testing}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Methods for in-editor vs pre-compiled training comparison}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Method for Sensor Testing:}{3}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Experiments}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Configuration Generation and Dynamic Parameterization}{4}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Training and Performance Evaluation}{4}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3} Bayesian Optimization and Iterative Search:}{4}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.4}Finding The Optimal Learning Rate}{5}{subsection.3.4}%
+\contentsline {subsection}{\numberline {3.5}Finding The Optimal Hidden Unit Number}{5}{subsection.3.5}%
+\contentsline {section}{\numberline {4}Results}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Finding The Optimal Learning Rate}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Finding The Optimal Hidden Unit Number}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conclusion}{8}{section.5}%
