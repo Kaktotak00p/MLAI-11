@@ -129,7 +129,7 @@ public class SoccerEnvController : MonoBehaviour
                     item.Agent.GoalScored(Team.Purple);
                 }
             }
-
+            
             // Group rewards
             m_BlueAgentGroup.AddGroupReward(1 - (float)m_ResetTimer / MaxEnvironmentSteps);
             m_PurpleAgentGroup.AddGroupReward(-1);
