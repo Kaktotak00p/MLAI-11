@@ -30,15 +30,20 @@ The primary objective of this study is to identify the most optimal configuratio
 
 However, this question is quite broad as there is a lot to cover under the umbrella of optimising a reinforcement learning algorithm for training agents for a specific task. Therefore, these researchers have decided to break down this broad primary research question into three sub-questions, each exploring a different aspect of this optimization. The three questions are; What is the most suitable set of values for the configuration file of a POCA training algorithm for this task? What is the optimal combination of realistic sensors for performance for this task? Does training in the unity editor alter the performance of the agents when compared to training in a pre-compiled file? 
 
-When researching the topic of Multi Agent Reinforcement Learning (MARL), we found that the majority of studies were fairly broad, and few focused on optimising MARL for a very specific, niche task such as playing football. Studies such as L. Bus¸oniu et al. and many more carry out much larger analyses on MARL as a whole, without diving into the specifics of POCA, especially not for a single task. In the field of MARL for football, we were able to find one single study which utilised PPO for a full 11 versus 11 football match simulation (Smit et al). However, although PPO has been described as an effective MARL algorithm, it was not the algorithm’s original purpose (Yu et al). Thus, we believe that by attempting to reconfigure the football game to be a 2 versus 2 scenario, as well as using the POCA algorithm instead of the PPO algorithm, we will be contributing something new to the MARL field of study.
+When researching the topic of Multi Agent Reinforcement Learning (MARL), we found that the majority of studies were fairly broad, and few focused on optimising MARL for a very specific, niche task such as playing football. Studies such as  (L. Bus¸oniu et al., 2008)\cite{busoniu2008survey} and many more carry out much larger analyses on MARL as a whole, without diving into the specifics of POCA, especially not for a single task. In the field of MARL for football, we were able to find one single study which utilised PPO for a full 11 versus 11 football match simulation \cite{smit2023scaling_marl}. However, although PPO has been described as an effective MARL algorithm, it was not the algorithm’s original purpose \cite{yu2022ppo_cooperative}. Thus, we believe that by attempting to reconfigure the football game to be a 2 versus 2 scenario, as well as using the POCA algorithm instead of the PPO algorithm, we will be contributing something new to the MARL field of study.
+
+
+In this study, we aim to discover if we can improve the football playing abilities of 4 agents in a 2v2 closed pitch scenario. We aim to do this using a POCA reinforcement learning algorithm, giving the agents both positive and negative rewards for certain actions. Ideally, as the agents experience playing they develop strategies to maximize the amount of positive rewards that they receive, using the POCA algorithm. We could not find any studies related to the specific task of training agents to play football using a POCA algorithm, thus we believe that our paper will be a novelty in this sense. As this study will be breaking down and exploring a very niche facet of multi-agent reinforcement learning, we believe that this study will be contributing to the current academic state of the art of reinforcement learning. 
+
 
 
 In this study, we aim to discover if we can improve the football playing abilities of 4 agents in a 2v2 closed pitch scenario. We aim to do this using a POCA reinforcement learning algorithm, giving the agents both positive and negative rewards for certain actions. Ideally, as the agents experience playing they develop strategies to maximize the amount of positive rewards that they receive, using the POCA algorithm. We could not find any studies related to the specific task of training agents to play football using a POCA algorithm, thus we believe that our paper will be a novelty in this sense. As this study will be breaking down and exploring a very niche facet of multi-agent reinforcement learning, we believe that this study will be contributing to the current academic state of the art of reinforcement learning. 
 
 \section{Methods}
 In order to determine the most effective configuration of our training, we decided to use an Elo rating system. Out of all possible metrics we chose Elo rating as it is a very objective look at the performance of agents, which is the ultimate goal of this study. 
-How Elo rating works in this context is the following. We have two opposing teams with specific policies. One team has the latest policy, whilst the other team has a previous policy, which gets switched up every so often. The teams play against each other, until one team wins. In this case the win is determined by who can score a goal first. The Elo of both teams is then adjusted after every round, based on who won as well as the previous Elo rating of both teams. Comparing the Elo ratings when adjusting is important, because the perceived improvement of either team is dependent on how good the other team supposedly is. Therefore having a set change to Elo rating doesn’t work.
-Out of the two teams, one is the team that is currently  being trained, and the other is the “supporting” team. Both teams have their own respective Elo rankings, which start off at 1200. The Elo of each team develops as they play games against each other. The Elo score is calculated after every round, based on the Elo scores of both teams before the round started based on the following formula: 
+The reason why Elo rating is more compatible than some other measure such as cumulative reward is the fact that Elo shows the general progression of the agents’ policies as compared to previous policy versions. The logic behind this is explained in the Implementation section. 
+	By comparing the teams over multiple iterations, we can see how the reinforcement learning policies develop, and whether they are improving when compared to previous versions. Thus, Elo rating is an effective and reliable way to measure the improvement of the reinforcement learning policies overtime that the training algorithm develops. 
+	We used the Elo measurements provided by our POCA algorithm as a way of measuring the progress of the agent groups. More Elo progression meant better policy development, thus more optimal learning.
 
 \begin{figure}[htbp]
     \centering
@@ -68,8 +73,43 @@ Next, the scene is compiled. When it is ready, we have to run a command in the t
 of the scene are not generated, saving some computational power.
 
 \subsection{Method for Sensor Testing:}
-In order to compare the performances of different sensors, an in-editor training setup with the hyperparameters previously acquired were used. Three different sensor configurations were compared; Ray perception only, sound sensor only, ray perception and sound sensor combined. The ray perception sensor was a series of rays connected to the agent in a 120 FOV, in order to simulate realistic vision for the agent. The sound sensor was set up as an audio listener within the game with a set radius. The ball was set to trigger a noise when it came into contact with an agent or a ball. The agents were then notified of this noise. Logically, when combined, the sensors would constitute the two most important senses of a football player. Hearing and sound. Thus this configuration would produce the best results. In order to compare how individual configurations of the sensors perform we ran a training set using the POCA training algorithm for 2 million steps for each algorithm. This way, all configurations could be compared in an objective manner side by side. 
-Elo rating is a viable way to compare how sensor types perform because certain sensor types should see faster progression in Elo rating than others. For example, we expected the sound sensors to have lower levels of Elo development, as it would take longer for agents to figure out what was happening in the beginning, thus leading to more ties. Ties should not influence Elo too much. 
+In order to compare the performances of different sensors, an in-editor training setup with the hyperparameters previously acquired were used. Three different sensor configurations were compared; Ray perception only, sound sensor only, ray perception and sound sensor combined. The ray perception sensor was a series of rays connected to the agent in a 120 FOV, in order to simulate realistic vision for the agent. The sound sensor was set up as an audio listener within the game with a set radius of 15 units. The ball was set to trigger a noise when it came into contact with an agent or a ball. The agents were then notified of this noise. Logically, when combined, the sensors would constitute the two most important senses of a football player. Hearing and sound. Thus this configuration would produce the best results. In order to compare how individual configurations of the sensors perform we ran a training set using the POCA training algorithm for 2 million steps for each algorithm. This way, all configurations could be compared in an objective manner side by side. 
+	Elo rating is a viable way to compare how sensor types perform because certain sensor types should see faster progression in Elo rating than others. For example, we expected the sound sensors to have lower levels of Elo development, as it would take longer for agents to figure out what was happening in the beginning, thus leading to more ties. Ties should not influence Elo too much. 
+
+\section{Implementation}
+\subsection{POCA Function}
+The MA-POCA(Multi Agent POsthumous Credit Assignment) algorithm was developed by unity’s ml agents team specifically for the purpose of training agents in a multi-agent setting. This algorithm is specially suited for MARL because of its centralized critic. What this means is that instead of each agent having their own individual policy creation, the centralized critic is able to evaluate the performance of the team as a whole, and create policies for each individual agent based on the performance of the team \cite{cohen2022absorbing_states}. The individual agents can still have their own unique rewards, although in our experiments this is not the case.
+
+This central critic allows for interplay between agents seeking the same goal, such as football teammates, which makes POCA very suitable for teaching agents how to play team based sports. 
+\subsection{Reward System}
+We wanted to avoid overcomplicating our rewards system. We believe that if we rewarded too many behaviors among our agents, we would risk the policies overfitting on a certain action that is not conducive to the ultimate goal of the agents, which is to score goals.
+This meant that we chose to only reward agents for their goal scoring, as well as give them a negative reward for conceding a goal, thereby making the ultimate focus on the game objective. Additionally, there was a small constant negative reward for agents as long as no goal was scored, to ensure that the game did not become stagnant, as well as to ideally increase the rate at which goals were scored. This does mean since there was no specific guidance for the agents as they developed their initial policies, because the idea of scoring on the goal object is very vague, and not something that is easily determinable. Thus, we expected initial progress to be slower. 
+
+What helped in this scenario is that the field was of a relatively small size when compared to our agents, ball and goal post which meant that the likelihood of scoring early on by accident was high. This would allow the agents to start developing their policies in the right direction. 
+\subsection{Elo System}
+The Elo system in this training setup was based around the fact that football is a zero sum game. Thus, one team always has to win and one team has to lose, or they can draw. This means that both teams have their own respective Elo which gets changed after every round, determined by either a goal or time running out. The Elo is adjusted relative to the Elo of the other team. If the Elos are similar in value, the win is considered more valuable than if the opposing team’s Elo is much lower than the winning team’s. The reverse goes for a loss. 
+
+This system is incorporated into the training system in order to track policy progression. The team being trained gets their policy updated every round, whereas the opposing team (ghost team) has a policy which gets changed less frequently. Specifically, the policies of the ghost team are derived from a previous policy of the training team. The ghost team has a bank of old policies which it can rotate through, so that the training team doesn’t overfit to only beat one old policy. 
+
+The idea behind using old policies to compare new policies, is that as the agents are developing their policies, they should be better than their previous versions. Thus, decreasing Elo indicates that policy development is making the agents worse overtime, whereas increasing Elo suggests that the policies are developing well, and beating their previous versions. 
+
+The logic of the Elo calculation is the following:
+
+\[
+E_A = \frac{1}{1 + 10^{(R_B - R_A)/400}}
+\]
+
+\par % Adds a paragraph break
+Where \(E_A\) is the expected score of team \(A\) and \(R_X\) is the Elo score of team \(X\).
+
+\[
+R_A' = R_A + K(S_A - E_A)
+\]
+
+\par % Adds space between the equations
+Where \(R_A'\) is the new score of team \(A\), \(K\) is the K-factor, and \(S_A\) is the performance of team \(A\), which is either 1 for a win or 0 for a loss. Draws are not considered in Elo rating.
+
+    
 
 %EXPERIMTENS    
 \section{Experiments}
@@ -266,11 +306,39 @@ Finally if we look at the memory usage of all at Figure~\ref{fig:Total Commited 
     \label{fig:Total Commited Memory By Hidden Units}
 \end{figure}
 
+\subsection{In-editor vs pre-compiled}
+We run the pre-compiled training twice since it is very fast and the in-editor training once.
+The results for pre-compiled training in the table below are the average from two runs. The measured values are:
 
+
+\subsection{Sensor Results}
+
+%Discussion
+\section{Discussion}
+
+
+\subsection{In-editor vs pre-compiled}
+Training in a pre-compiled environment is significantly faster compared to in-editor training. Our experiment showed that it is almost 8 times faster. The ELO rating turned out to be a bit higher for in-editor training,however if we take into account the  performance/time metrics, then pre-compiled training is over 7 times more effective, achieving 70,6 ELO/minute average growth compared to 9,62 ELO/minute. The episode lengths of agents trained in-editor were shorter (29.5 s) compared to those in the pre-compiled environment (43.9 s). This difference may result from variations in environment dynamics, synchronization, or computation handling, suggesting that the pre-compiled setup may provide a more precise simulation of the agent's interactions. Both setups achieve the same cumulative reward (1), indicating that both methods are capable of achieving the desired reward, though other metrics differ. The pre-compiled setup shows slightly lower baseline loss (0.22) compared to the in-editor setup (0.26). Lower baseline loss may suggest better generalization or stability. Policy loss is very similar for both setups, with the in-editor setup having a slightly lower policy loss (0.031 vs. 0.033). This metric doesn't show significant differences. The pre-compiled setup has a lower value loss (0.20) compared to the in-editor setup (0.25), indicating better value function approximation. Resource usage analysis revealed significant differences in CPU and RAM consumption. The pre-compiled environment consumed more than twice the CPU power on average (21.80% vs. 8.28% in-editor), likely due to more intensive real-time computations. RAM usage differences were less pronounced, with the pre-compiled environment using 13.15% compared to 12.9% in-editor. The higher CPU usage in the pre-compiled environment likely contributed to its greater efficiency, making it a better option for fast agent training.
+\subsection{Learning rate}
+For our experiment in learning rate the cumulative reward results shows us that the run with 0.0009 learning rate converged to the maximum faster than the rest without showing many fluctuations meaning 0.0009 would be the optimal learning rate in this category. Same goes for the ELO as the run with the 0.0009 learning rate is slightly higher throughout the run from the others. Furthermore, the time it took for the runs until the same step didn’t change with the learning rate. And if we look at CPU frame time 0.0009 learning rate is in the middle indicating there isn’t a performance issue with it. But most importantly these results matched with our  Bayesian optimization we did earlier. With the optimization we got a learning rate of  0.0007968671455358874. Which is closest to our pick out of the 3 learning rates. This confirms our results are valid.
+\subsection{Hidden units}
+In our experiment with hidden units it follows a similar performance metric with the learning rate. The highest hidden units count(1024) is the fastest to converge to maximum cumulative reward. And it is the one with the highest ELO throughout the run. But in this case there were drawbacks in CPU usage and time efficiency. The run with 1024 hidden units had the most spikes in scripts and rendering. And had the worst CPU performance, with slower processing leading to longer run times. So in this case it is an argument of Performance/Efficiency, if we go in the middle with 512 hidden units we will get the same results as in our Bayesian optimization run. So in the end of our research we would go with 512 hidden units.
+\subsection{Sensor Discussion}
+What we can derive from the data of our experiments with sensors is that each individual configuration affects training and policy generation in a similar way. We found that the combined sensor configuration was the most balanced of the three configurations, and thus seems to be the most stable sensor configuration for long term training. We believe this because although the combined sensor had the lowest Elo rating, meaning it progressed more slowly compared to previous versions of itself, it had the lowest policy loss, and was the middle of the pack in cumulative reward generation. This makes sense, since this configuration provides the most data for the critic to determine optimal policy. 
+
+When we compare this performance to our ray perception only configuration, we can see that although the Elo was the highest out of the three, the cumulative reward was actually negative, meaning that the agents presumably took very long to make goals, and most likely did not score goals in quite a few runs. The reasoning behind that assumption is that the agents could not have been conceding goals, since they were increasing in Elo, however the only way to lose reward without losing Elo is scoring few goals with long time differences between scores. The policy loss of the ray perception sensor was not significantly higher, indicating that the training policy may take longer to develop and have spikes of poor performance due to unreliability. 
+
+Finally, when looking at the sound sensor only, we see that it had the highest cumulative reward, and the highest policy loss, with the second highest Elo rating. This indicates that this system may perform the best at scoring goals, however its training is the most unpredictable. This makes sense since it would be difficult to develop a reliable policy on aiming a ball into a goal, without knowing where the goal is. This means that the policy changes may have been more erratic in this configuration, leading to less predictable rounds. 
 % Conclusion
 \section{Conclusion}
+\subsection{In-editor vs pre-compiled}
+The results  show that the pre-compiled environment offers significantly higher training efficiency in terms of speed. It is much faster than the in-editor environment, achieving better efficiency metrics (ELO/min). With lower baseline loss and value loss, the pre-compiled environment may be more stable and provide better value function approximation, which makes it an ideal choice for creating a good model in a reasonable amount of time.
+\subsection{Sensor}
+Overall, the combined sensor configuration seemed to be the best for long-term training due to its low policy loss, and acceptable performance in self-play. 
 % Bibliography
-\bibliographystyle{plain}
+
+\bibliographystyle{unsrt}
 \bibliography{selectionsortBib}
+\section{Appendix}
 
 \end{document}

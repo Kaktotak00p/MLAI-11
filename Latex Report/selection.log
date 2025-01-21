@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.13)  20 JAN 2025 03:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.13)  21 JAN 2025 04:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/Users/cemandrewgultekin/Desktop/Latex Report/selection.tex"
-(/Users/cemandrewgultekin/Desktop/Latex Report/selection.tex
+**"/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex"
+(/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (./LSkill.cls
@@ -279,17 +279,17 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (./selection.toc
-Underfull \hbox (badness 2790) in paragraph at lines 7--7
+Underfull \hbox (badness 2790) in paragraph at lines 11--11
  [][] [][]\OT1/cmr/m/n/10 Configuration Gen-er-a-tion and Dy- 
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 11--11
+Underfull \hbox (badness 1019) in paragraph at lines 15--15
  [][] [][]\OT1/cmr/m/n/10 Finding The Op-ti-mal Hid-den Unit 
  []
 
 
-Underfull \hbox (badness 1019) in paragraph at lines 14--14
+Underfull \hbox (badness 1019) in paragraph at lines 18--18
  [][] [][]\OT1/cmr/m/n/10 Finding The Op-ti-mal Hid-den Unit 
  []
 
@@ -300,231 +300,230 @@ Underfull \hbox (badness 1019) in paragraph at lines 14--14
  [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
-]
-<figure 1.png, id=97, 426.59375pt x 311.1625pt>
+] [2]
+<figure 1.png, id=178, 426.59375pt x 311.1625pt>
 File: figure 1.png Graphic file (type png)
 <use figure 1.png>
-Package pdftex.def Info: figure 1.png  used on input line 45.
+Package pdftex.def Info: figure 1.png  used on input line 50.
 (pdftex.def)             Requested size: 234.5pt x 171.04968pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 45--46
+Overfull \hbox (5.0pt too wide) in paragraph at lines 50--51
  [][] 
  []
 
-[2 <./figure 1.png>]
-Underfull \hbox (badness 2376) in paragraph at lines 57--57
+
+Underfull \hbox (badness 2376) in paragraph at lines 62--62
 []\OT1/cmr/bx/n/12 Methods for in-editor vs pre-
  []
 
 
-Underfull \hbox (badness 3746) in paragraph at lines 60--62
+Underfull \hbox (badness 3746) in paragraph at lines 65--67
 []\OT1/cmr/m/n/10 In or-der to run the in-editor train-ing, we
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 \OT1/cmr/m/n/10 have to run a com-mand in the ter-mi-nal:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 60--62
+Underfull \hbox (badness 10000) in paragraph at lines 65--67
 \OT1/cmtt/m/n/10 mlagents-learn (path to)SoccerTwosBest.yaml
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 60--62
+Underfull \hbox (badness 1789) in paragraph at lines 65--67
 \OT1/cmtt/m/n/10 --run-id=run[]1[]in[]editor\OT1/cmr/m/n/10 . We have to spec-
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 66.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 66.
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 71.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 71.
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 66.
+(Font)              for symbol `textbackslash' on input line 71.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 []\OT1/cmr/m/n/10 Next, the scene is com-piled. When
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 \OT1/cmr/m/n/10 it is ready, we have to run a com-mand
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 \OT1/cmr/m/n/10 in the ter-mi-nal: \OT1/cmtt/m/n/10 mlagents-learn (path
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 \OT1/cmtt/m/n/10 to) \OMS/cmtt/m/n/10 n\OT1/cmtt/m/n/10 SoccerTwosBest.yaml --env (path
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 66--69
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
 \OT1/cmtt/m/n/10 to) \OMS/cmtt/m/n/10 n\OT1/cmtt/m/n/10 UnityEnvironment.exe --run-id
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 66--69
+Underfull \hbox (badness 3460) in paragraph at lines 71--74
 \OT1/cmtt/m/n/10 run[]1[]pre[]compiled --no-graphics\OT1/cmr/m/n/10 . We have
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 66--69
+Underfull \hbox (badness 2495) in paragraph at lines 71--74
 \OT1/cmr/m/n/10 for the train-ing (\OT1/cmtt/m/n/10 SoccerTwosBest.yaml \OT1/cmr/m/n/10 in this
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+ [3 <./figure 1.png>] [4]
+Underfull \hbox (badness 10000) in paragraph at lines 119--119
 []\OT1/cmr/bx/n/12 Configuration Gen-er-a-tion and
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 85.
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 125.
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 85.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
 
-Underfull \hbox (badness 2020) in paragraph at lines 95--96
+Underfull \hbox (badness 2020) in paragraph at lines 135--136
 \OT1/cmr/m/n/10 the train-ing pro-cess us-ing the \OT1/cmtt/m/n/10 mlagents-learn
  []
 
-
-Underfull \hbox (badness 1527) in paragraph at lines 99--100
+[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 1527) in paragraph at lines 139--140
 []\OT1/cmr/m/n/10 The train-ing pro-ce-dure was set for a pre-de-
  []
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 99--100
+Underfull \hbox (badness 1152) in paragraph at lines 139--140
 \OT1/cmr/m/n/10 sole out-put log, ex-tract-ing the fi-nal Elo rat-ing
  []
 
-[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 1571) in paragraph at lines 120--120
+
+Underfull \hbox (badness 1571) in paragraph at lines 160--160
 []\OT1/cmr/bx/n/12 Finding The Op-ti-mal Learn-ing
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 127--127
+Underfull \hbox (badness 1571) in paragraph at lines 167--167
 []\OT1/cmr/bx/n/12 Finding The Op-ti-mal Learn-ing
  []
 
-<figure 2.png, id=115, 513.92pt x 274.02374pt>
+<figure 2.png, id=203, 513.92pt x 274.02374pt>
 File: figure 2.png Graphic file (type png)
 <use figure 2.png>
-Package pdftex.def Info: figure 2.png  used on input line 135.
+Package pdftex.def Info: figure 2.png  used on input line 175.
 (pdftex.def)             Requested size: 234.5pt x 125.03639pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 135--136
+Overfull \hbox (5.0pt too wide) in paragraph at lines 175--176
  [][] 
  []
 
-<figure 3.png, id=117, 513.92pt x 272.01625pt>
+[6]
+<figure 3.png, id=211, 513.92pt x 272.01625pt>
 File: figure 3.png Graphic file (type png)
 <use figure 3.png>
-Package pdftex.def Info: figure 3.png  used on input line 144.
+Package pdftex.def Info: figure 3.png  used on input line 184.
 (pdftex.def)             Requested size: 234.5pt x 124.12038pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 144--145
+Overfull \hbox (5.0pt too wide) in paragraph at lines 184--185
  [][] 
  []
 
-<figure 4.png, id=119, 513.92pt x 281.05pt>
+<figure 4.png, id=213, 513.92pt x 281.05pt>
 File: figure 4.png Graphic file (type png)
 <use figure 4.png>
-Package pdftex.def Info: figure 4.png  used on input line 153.
+Package pdftex.def Info: figure 4.png  used on input line 193.
 (pdftex.def)             Requested size: 234.5pt x 128.24246pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 153--154
+Overfull \hbox (5.0pt too wide) in paragraph at lines 193--194
  [][] 
  []
 
-[5 <./figure 2.png> <./figure 3.png>]
-<figure 5.png, id=128, 513.92pt x 341.275pt>
+<figure 5.png, id=215, 513.92pt x 341.275pt>
 File: figure 5.png Graphic file (type png)
 <use figure 5.png>
-Package pdftex.def Info: figure 5.png  used on input line 183.
+Package pdftex.def Info: figure 5.png  used on input line 223.
 (pdftex.def)             Requested size: 234.5pt x 155.72299pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 183--184
- [][] 
- []
-
-<figure 6.png, id=130, 513.92pt x 306.14375pt>
-File: figure 6.png Graphic file (type png)
-<use figure 6.png>
-Package pdftex.def Info: figure 6.png  used on input line 192.
-(pdftex.def)             Requested size: 234.5pt x 139.69267pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 192--193
- [][] 
- []
-
-[6 <./figure 4.png> <./figure 5.png> <./figure 6.png>]
-<figure 7.png, id=138, 513.92pt x 273.02pt>
-File: figure 7.png Graphic file (type png)
-<use figure 7.png>
-Package pdftex.def Info: figure 7.png  used on input line 204.
-(pdftex.def)             Requested size: 234.5pt x 124.5784pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 204--205
- [][] 
- []
-
-<figure 8.png, id=140, 513.92pt x 276.03125pt>
-File: figure 8.png Graphic file (type png)
-<use figure 8.png>
-Package pdftex.def Info: figure 8.png  used on input line 213.
-(pdftex.def)             Requested size: 234.5pt x 125.95241pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 213--214
- [][] 
- []
-
-<figure 9.png, id=142, 513.92pt x 274.02374pt>
-File: figure 9.png Graphic file (type png)
-<use figure 9.png>
-Package pdftex.def Info: figure 9.png  used on input line 223.
-(pdftex.def)             Requested size: 234.5pt x 125.03639pt.
 
 Overfull \hbox (5.0pt too wide) in paragraph at lines 223--224
  [][] 
  []
 
-[7 <./figure 7.png> <./figure 8.png> <./figure 9.png>]
-<figure 10.png, id=153, 513.92pt x 341.275pt>
-File: figure 10.png Graphic file (type png)
-<use figure 10.png>
-Package pdftex.def Info: figure 10.png  used on input line 255.
-(pdftex.def)             Requested size: 234.5pt x 155.72299pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 255--256
- [][] 
- []
-
-<figure 11.png, id=155, 513.92pt x 306.14375pt>
-File: figure 11.png Graphic file (type png)
-<use figure 11.png>
-Package pdftex.def Info: figure 11.png  used on input line 264.
+<figure 6.png, id=217, 513.92pt x 306.14375pt>
+File: figure 6.png Graphic file (type png)
+<use figure 6.png>
+Package pdftex.def Info: figure 6.png  used on input line 232.
 (pdftex.def)             Requested size: 234.5pt x 139.69267pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 264--265
+Overfull \hbox (5.0pt too wide) in paragraph at lines 232--233
  [][] 
  []
 
-(./selection.bbl
+[7 <./figure 2.png> <./figure 3.png> <./figure 4.png>]
+<figure 7.png, id=228, 513.92pt x 273.02pt>
+File: figure 7.png Graphic file (type png)
+<use figure 7.png>
+Package pdftex.def Info: figure 7.png  used on input line 244.
+(pdftex.def)             Requested size: 234.5pt x 124.5784pt.
 
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
+Overfull \hbox (5.0pt too wide) in paragraph at lines 244--245
+ [][] 
+ []
 
-) [8 <./figure 10.png> <./figure 11.png>] (./selection.aux)
+<figure 8.png, id=230, 513.92pt x 276.03125pt>
+File: figure 8.png Graphic file (type png)
+<use figure 8.png>
+Package pdftex.def Info: figure 8.png  used on input line 253.
+(pdftex.def)             Requested size: 234.5pt x 125.95241pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 253--254
+ [][] 
+ []
+
+<figure 9.png, id=232, 513.92pt x 274.02374pt>
+File: figure 9.png Graphic file (type png)
+<use figure 9.png>
+Package pdftex.def Info: figure 9.png  used on input line 263.
+(pdftex.def)             Requested size: 234.5pt x 125.03639pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 263--264
+ [][] 
+ []
+
+[8 <./figure 5.png> <./figure 6.png> <./figure 7.png> <./figure 8.png>]
+<figure 10.png, id=240, 513.92pt x 341.275pt>
+File: figure 10.png Graphic file (type png)
+<use figure 10.png>
+Package pdftex.def Info: figure 10.png  used on input line 295.
+(pdftex.def)             Requested size: 234.5pt x 155.72299pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 295--296
+ [][] 
+ []
+
+<figure 11.png, id=242, 513.92pt x 306.14375pt>
+File: figure 11.png Graphic file (type png)
+<use figure 11.png>
+Package pdftex.def Info: figure 11.png  used on input line 304.
+(pdftex.def)             Requested size: 234.5pt x 139.69267pt.
+
+Overfull \hbox (5.0pt too wide) in paragraph at lines 304--305
+ [][] 
+ []
+
+[9 <./figure 9.png> <./figure 10.png> <./figure 11.png>]
+Underfull \vbox (badness 1394) has occurred while \output is active []
+
+ [10] (./selection.bbl) [11] (./selection.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -534,21 +533,21 @@ L3 programming layer <2024-02-20>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `selection.out' has not changed.
-(rerunfilecheck)             Checksum: 807F135EFEB6B2D57F8D052004354D76;3183.
+(rerunfilecheck)             Checksum: 7F9A3659B981D1B20EB70233743A6D15;5017.
  ) 
 Here is how much of TeX's memory you used:
- 9745 strings out of 474116
- 148181 string characters out of 5743681
- 1945187 words of memory out of 5000000
- 31951 multiletter control sequences out of 15000+600000
- 566435 words of font info for 69 fonts, out of 8000000 for 9000
+ 9789 strings out of 474116
+ 148927 string characters out of 5743681
+ 1948187 words of memory out of 5000000
+ 31973 multiletter control sequences out of 15000+600000
+ 566781 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,1148b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on selection.pdf (8 pages, 454570 bytes).
+ 75i,9n,79p,2017b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on selection.pdf (11 pages, 529697 bytes).
 PDF statistics:
- 211 PDF objects out of 1000 (max. 8388607)
- 172 compressed objects within 2 object streams
- 38 named destinations out of 1000 (max. 500000)
- 176 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 335 PDF objects out of 1000 (max. 8388607)
+ 280 compressed objects within 3 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

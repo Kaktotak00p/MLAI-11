@@ -1,3 +1,23 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{busoniu2008survey}
+L.~Bu{\c{s}}oniu, R.~Babu{\v{s}}ka, and B.~De Schutter.
+\newblock A comprehensive survey of multi-agent reinforcement learning.
+\newblock {\em IEEE Transactions on Systems, Man, and Cybernetics, Part C: Applications and Reviews}, 38(2):156--172, 2008.
+
+\bibitem{smit2023scaling_marl}
+A.~Smit, H.~A. Engelbrecht, W.~Brink, and A.~Pretorius.
+\newblock Scaling multi-agent reinforcement learning to full 11 versus 11 simulated robotic football.
+\newblock {\em Autonomous Agents and Multi-Agent Systems}, 37(1), 2023.
+
+\bibitem{yu2022ppo_cooperative}
+Yu~et~al.
+\newblock The surprising effectiveness of ppo in cooperative multi-agent games.
+\newblock {\em ArXiv}, 2022.
+
+\bibitem{cohen2022absorbing_states}
+Cohen et~al.
+\newblock On the use and misuse of absorbing states in multi-agent reinforcement learning.
+\newblock {\em Unity Technologies}, 2022.
 
 \end{thebibliography}
