@@ -39,6 +39,18 @@ After the script is stopped you can inspect the result in the ./results/ folder,
 The script uses SQLite to track different runs.
 
 ---
+
+## Hyperparameter Experiments
+
+To change the parameter values manually go to MLAI-11/config/poca/SoccerTwos.yaml. 
+This has the default configuration for SoccersTwo.
+Change any parameter you'd like.
+After the change run the command:
+~~~bash 
+mlagents-learn ~/MLAI-11/config/poca/SoccerTwos.yaml
+~~~
+
+---
 ## In editor vs precompiled testing
 
 Run the following command to start the training using the in editor environment. The script will track the cpu and memory usage of mlagents-learn.
