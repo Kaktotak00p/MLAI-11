@@ -67,7 +67,7 @@ To run the training using the precompiled env first build the Unity scene. In or
 python mlagents_cpu_monitor.py --env path/to/your/build
 ~~~
 
-If no flag is provided the script will try to run the ./Project/build/testBuild.x86_64 build 
+If no flag is provided, the script will try to run the ./Project/build/testBuild.x86_64 build 
 
 If you want to just run the training, you have to put a command in the terminal:
 
@@ -82,7 +82,7 @@ for pre-compiled:
  ~~~
 
 "--no-graphics" is not nessesery, but If you add this, the graphics for the scene are not generated which saves some compute.
-You have to specify the path to the yaml file responsible
- for the training (SoccerTwos.yaml) as well as the path to the compiled scene (UnityEnvironment.exe) and We supply
- the run-id as the name of the trial. If you are doing in-editor training, after entering the commant, you have to play the scene in Unity Editor.
+Specify the path to the yaml file responsible
+ for the training (SoccerTwos.yaml) as well as the path to the compiled scene (UnityEnvironment.exe) and supply
+ the run-id as the name of the trial. If you are doing in-editor training, after entering the command, play the scene in the Unity Editor.
 
