@@ -65,4 +65,13 @@ python mlagents_cpu_monitor.py --env path/to/your/build
 ~~~
 
 If no flag is provided the script will try to run the ./Project/build/testBuild.x86_64 build 
+If you want to just run the training, you have to put a command in the terminal:
+for in-editor:
+ mlagents-learn (path to)SoccerTwost.yaml \--run-id=[our run
+for pre-compiled:
+ mlagents-learn (path to) \SoccerTwos.yaml \--env (path to)\UnityEnvironment.exe \--run-id=[our run id] \--no-graphics
+"--no-graphics" is not nessesery, but If you add this, the graphics for the scene are not generated which saves some compute.
+You have to specify the path to the yaml file responsible
+ for the training (SoccerTwos.yaml) as well as the path to the compiled scene (UnityEnvironment.exe) and We supply
+ the run-id as the name of the trial. If you are doing in-editor training, after entering the commant, you have to play the scene in Unity Editor.
 
