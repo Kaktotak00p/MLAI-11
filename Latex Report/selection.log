@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.13)  21 JAN 2025 04:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024) (preloaded format=pdflatex 2024.10.13)  21 JAN 2025 22:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -213,46 +213,37 @@ LaTeX Info: Redefining \Relbar on input line 971.
 \mathdisplay@stack=\toks22
 LaTeX Info: Redefining \[ on input line 2953.
 LaTeX Info: Redefining \] on input line 2954.
-) (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amssymb.sty
-Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/amsfonts.sty
-Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\symAMSa=\mathgroup4
-\symAMSb=\mathgroup5
-LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
-LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
-(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+) (/usr/local/texlive/2024/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count286
 \l__pdf_internal_box=\box53
-) (./selection.aux)
+)
+No file selection.aux.
 \openout1 = `selection.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 16.
-LaTeX Font Info:    ... okay on input line 16.
-Package hyperref Info: Link coloring OFF on input line 16.
- (./selection.out) (./selection.out)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+Package hyperref Info: Link coloring OFF on input line 9.
 \@outlinefile=\write3
 \openout3 = `selection.out'.
 
- (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+(/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count287
 \scratchdimen=\dimen156
@@ -267,287 +258,1224 @@ Package hyperref Info: Link coloring OFF on input line 16.
 \everyMPtoPDFconversion=\toks24
 ) (/usr/local/texlive/2024/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (/usr/local/texlive/2024/texmf-dist/tex/latex/grfext/grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (/usr/local/texlive/2024/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 20.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 20.
- (/usr/local/texlive/2024/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (./selection.toc
-Underfull \hbox (badness 2790) in paragraph at lines 11--11
- [][] [][]\OT1/cmr/m/n/10 Configuration Gen-er-a-tion and Dy- 
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 15--15
- [][] [][]\OT1/cmr/m/n/10 Finding The Op-ti-mal Hid-den Unit 
- []
-
-
-Underfull \hbox (badness 1019) in paragraph at lines 18--18
- [][] [][]\OT1/cmr/m/n/10 Finding The Op-ti-mal Hid-den Unit 
- []
-
-)
+No file selection.toc.
 \tf@toc=\write4
 \openout4 = `selection.toc'.
 
- [1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-
-] [2]
-<figure 1.png, id=178, 426.59375pt x 311.1625pt>
-File: figure 1.png Graphic file (type png)
-<use figure 1.png>
-Package pdftex.def Info: figure 1.png  used on input line 50.
-(pdftex.def)             Requested size: 234.5pt x 171.04968pt.
-
-Overfull \hbox (5.0pt too wide) in paragraph at lines 50--51
- [][] 
+Underfull \hbox (badness 2376) in paragraph at lines 24--25
+\OT1/cmr/m/n/9 ing agents to play 2 ver-sus 2 foot-ball us-ing the
  []
 
 
-Underfull \hbox (badness 2376) in paragraph at lines 62--62
+Underfull \hbox (badness 5036) in paragraph at lines 24--25
+\OT1/cmr/m/n/9 MA-POCA al-go-rithm re-quires a learn-ing rate of
+ []
+
+
+LaTeX Warning: Citation `Busoniu2008' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Smit2023' on page 1 undefined on input line 38.
+
+
+LaTeX Warning: Citation `Yu2022' on page 1 undefined on input line 38.
+
+[1{/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+]
+
+LaTeX Warning: Reference `sec:implementation' on page 2 undefined on input line 46.
+
+
+Underfull \hbox (badness 2376) in paragraph at lines 56--56
 []\OT1/cmr/bx/n/12 Methods for in-editor vs pre-
  []
 
+[2]
 
-Underfull \hbox (badness 3746) in paragraph at lines 65--67
-[]\OT1/cmr/m/n/10 In or-der to run the in-editor train-ing, we
+LaTeX Warning: Citation `Cohen2022' on page 3 undefined on input line 87.
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 132--132
+[]\OT1/cmr/bx/n/12 Configuration Gen-er-a-tion and
+ []
+
+LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 138.
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <9> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 138.
+
+Underfull \hbox (badness 5302) in paragraph at lines 148--149
+\OT1/cmr/m/n/9 function ex-e-cuted the train-ing pro-cess us-ing the
+ []
+
+[4{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Underfull \hbox (badness 1571) in paragraph at lines 184--184
+[]\OT1/cmr/bx/n/12 Finding The Op-ti-mal Learn-ing
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-\OT1/cmr/m/n/10 have to run a com-mand in the ter-mi-nal:
+Underfull \hbox (badness 1320) in paragraph at lines 187--187
+[] \OT1/cmr/bx/n/12 Find-ing The Op-ti-mal Hid-den
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 65--67
-\OT1/cmtt/m/n/10 mlagents-learn (path to)SoccerTwosBest.yaml
+Underfull \hbox (badness 1571) in paragraph at lines 201--201
+[]\OT1/cmr/bx/n/12 Finding The Op-ti-mal Learn-ing
+ []
+
+[5]
+
+LaTeX Warning: Reference `subsec:batchsize-exp' on page 6 undefined on input line 259.
+
+
+Underfull \hbox (badness 2269) in paragraph at lines 263--264
+[]\OT1/cmr/bx/n/9 Baseline Loss: \OT1/cmr/m/n/9 Batch size 1024 con-sis-tently
+ []
+
+[6]
+
+LaTeX Warning: Reference `subsec:fields-exp' on page 7 undefined on input line 271.
+
+[7]
+
+LaTeX Warning: File `Figures/Sensor Elo.png' not found on input line 327.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:327: Package pdftex.def Error: File `Figures/Sensor Elo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.327 ...= 0.35\textwidth]{Figures/Sensor Elo.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Figures/Sensor Policy Loss.png' not found on input line 328.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:328: Package pdftex.def Error: File `Figures/Sensor Policy Loss.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.328 ...extwidth]{Figures/Sensor Policy Loss.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: File `Figures/Sensor Cumulative Reward.png' not found on input line 329.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:329: Package pdftex.def Error: File `Figures/Sensor Cumulative Reward.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.329 ...th]{Figures/Sensor Cumulative Reward.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
+[]
  []
 
 
-Underfull \hbox (badness 1789) in paragraph at lines 65--67
-\OT1/cmtt/m/n/10 --run-id=run[]1[]in[]editor\OT1/cmr/m/n/10 . We have to spec-
+Underfull \hbox (badness 10000) in paragraph at lines 327--330
+[]
  []
 
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 71.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 71.
-
-LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 71.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-[]\OT1/cmr/m/n/10 Next, the scene is com-piled. When
+[8] [9]
+Underfull \hbox (badness 1152) in paragraph at lines 369--370
+\OT1/cmr/m/n/9 2 ver-sus 2 foot-ball us-ing the MA-POCA al-go-rithm
  []
 
+(./selection.bbl)
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-\OT1/cmr/m/n/10 it is ready, we have to run a com-mand
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-\OT1/cmr/m/n/10 in the ter-mi-nal: \OT1/cmtt/m/n/10 mlagents-learn (path
- []
+LaTeX Warning: File `Appendix/ELOeditor.png' not found on input line 377.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-\OT1/cmtt/m/n/10 to) \OMS/cmtt/m/n/10 n\OT1/cmtt/m/n/10 SoccerTwosBest.yaml --env (path
- []
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:377: Package pdftex.def Error: File `Appendix/ELOeditor.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.377 ...th=0.5\textwidth]{Appendix/ELOeditor.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--74
-\OT1/cmtt/m/n/10 to) \OMS/cmtt/m/n/10 n\OT1/cmtt/m/n/10 UnityEnvironment.exe --run-id
+Overfull \hbox (5.0pt too wide) in paragraph at lines 377--379
+[] 
  []
 
 
-Underfull \hbox (badness 3460) in paragraph at lines 71--74
-\OT1/cmtt/m/n/10 run[]1[]pre[]compiled --no-graphics\OT1/cmr/m/n/10 . We have
- []
+LaTeX Warning: File `Appendix/RewardEditor.png' not found on input line 380.
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 71--74
-\OT1/cmr/m/n/10 for the train-ing (\OT1/cmtt/m/n/10 SoccerTwosBest.yaml \OT1/cmr/m/n/10 in this
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:380: Package pdftex.def Error: File `Appendix/RewardEditor.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.380 ...0.5\textwidth]{Appendix/RewardEditor.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 380--382
+[][] 
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [3 <./figure 1.png>] [4]
-Underfull \hbox (badness 10000) in paragraph at lines 119--119
-[]\OT1/cmr/bx/n/12 Configuration Gen-er-a-tion and
- []
+ [10]
 
-LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 125.
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
-
-Underfull \hbox (badness 2020) in paragraph at lines 135--136
-\OT1/cmr/m/n/10 the train-ing pro-cess us-ing the \OT1/cmtt/m/n/10 mlagents-learn
- []
-
-[5{/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Underfull \hbox (badness 1527) in paragraph at lines 139--140
-[]\OT1/cmr/m/n/10 The train-ing pro-ce-dure was set for a pre-de-
- []
+LaTeX Warning: File `Appendix/LengthEditor.png' not found on input line 383.
 
 
-Underfull \hbox (badness 1152) in paragraph at lines 139--140
-\OT1/cmr/m/n/10 sole out-put log, ex-tract-ing the fi-nal Elo rat-ing
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:383: Package pdftex.def Error: File `Appendix/LengthEditor.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.383 ...0.5\textwidth]{Appendix/LengthEditor.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 383--385
+[][] 
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 160--160
-[]\OT1/cmr/bx/n/12 Finding The Op-ti-mal Learn-ing
+LaTeX Warning: File `Appendix/BaselineEditor.png' not found on input line 386.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:386: Package pdftex.def Error: File `Appendix/BaselineEditor.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.386 ...5\textwidth]{Appendix/BaselineEditor.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 386--388
+[][] 
  []
 
 
-Underfull \hbox (badness 1571) in paragraph at lines 167--167
-[]\OT1/cmr/bx/n/12 Finding The Op-ti-mal Learn-ing
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/PolicyEditor.png' not found on input line 389.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:389: Package pdftex.def Error: File `Appendix/PolicyEditor.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.389 ...0.5\textwidth]{Appendix/PolicyEditor.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 389--391
+[][] 
  []
 
-<figure 2.png, id=203, 513.92pt x 274.02374pt>
-File: figure 2.png Graphic file (type png)
-<use figure 2.png>
-Package pdftex.def Info: figure 2.png  used on input line 175.
-(pdftex.def)             Requested size: 234.5pt x 125.03639pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 175--176
- [][] 
+LaTeX Warning: File `Appendix/ValueEditor.png' not found on input line 392.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:392: Package pdftex.def Error: File `Appendix/ValueEditor.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.392 ...=0.5\textwidth]{Appendix/ValueEditor.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 392--394
+[][] 
  []
 
-[6]
-<figure 3.png, id=211, 513.92pt x 272.01625pt>
-File: figure 3.png Graphic file (type png)
-<use figure 3.png>
-Package pdftex.def Info: figure 3.png  used on input line 184.
-(pdftex.def)             Requested size: 234.5pt x 124.12038pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 184--185
- [][] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [11]
+
+LaTeX Warning: File `Appendix/EloPre1.png' not found on input line 395.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:395: Package pdftex.def Error: File `Appendix/EloPre1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.395 ...idth=0.5\textwidth]{Appendix/EloPre1.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 395--397
+[][] 
  []
 
-<figure 4.png, id=213, 513.92pt x 281.05pt>
-File: figure 4.png Graphic file (type png)
-<use figure 4.png>
-Package pdftex.def Info: figure 4.png  used on input line 193.
-(pdftex.def)             Requested size: 234.5pt x 128.24246pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 193--194
- [][] 
+LaTeX Warning: File `Appendix/RewardPre1.png' not found on input line 398.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:398: Package pdftex.def Error: File `Appendix/RewardPre1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.398 ...h=0.5\textwidth]{Appendix/RewardPre1.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 398--400
+[][] 
  []
 
-<figure 5.png, id=215, 513.92pt x 341.275pt>
-File: figure 5.png Graphic file (type png)
-<use figure 5.png>
-Package pdftex.def Info: figure 5.png  used on input line 223.
-(pdftex.def)             Requested size: 234.5pt x 155.72299pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 223--224
- [][] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/LengthPre1.png' not found on input line 401.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:401: Package pdftex.def Error: File `Appendix/LengthPre1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.401 ...h=0.5\textwidth]{Appendix/LengthPre1.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 401--403
+[][] 
  []
 
-<figure 6.png, id=217, 513.92pt x 306.14375pt>
-File: figure 6.png Graphic file (type png)
-<use figure 6.png>
-Package pdftex.def Info: figure 6.png  used on input line 232.
-(pdftex.def)             Requested size: 234.5pt x 139.69267pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 232--233
- [][] 
+LaTeX Warning: File `Appendix/BaselinePre1.png' not found on input line 404.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:404: Package pdftex.def Error: File `Appendix/BaselinePre1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.404 ...0.5\textwidth]{Appendix/BaselinePre1.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 404--406
+[][] 
  []
 
-[7 <./figure 2.png> <./figure 3.png> <./figure 4.png>]
-<figure 7.png, id=228, 513.92pt x 273.02pt>
-File: figure 7.png Graphic file (type png)
-<use figure 7.png>
-Package pdftex.def Info: figure 7.png  used on input line 244.
-(pdftex.def)             Requested size: 234.5pt x 124.5784pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 244--245
- [][] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [12]
+
+LaTeX Warning: File `Appendix/PolicyPre1.png' not found on input line 407.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:407: Package pdftex.def Error: File `Appendix/PolicyPre1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.407 ...h=0.5\textwidth]{Appendix/PolicyPre1.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 407--409
+[][] 
  []
 
-<figure 8.png, id=230, 513.92pt x 276.03125pt>
-File: figure 8.png Graphic file (type png)
-<use figure 8.png>
-Package pdftex.def Info: figure 8.png  used on input line 253.
-(pdftex.def)             Requested size: 234.5pt x 125.95241pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 253--254
- [][] 
+LaTeX Warning: File `Appendix/ValuePre1.png' not found on input line 410.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:410: Package pdftex.def Error: File `Appendix/ValuePre1.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.410 ...th=0.5\textwidth]{Appendix/ValuePre1.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 410--412
+[][] 
  []
 
-<figure 9.png, id=232, 513.92pt x 274.02374pt>
-File: figure 9.png Graphic file (type png)
-<use figure 9.png>
-Package pdftex.def Info: figure 9.png  used on input line 263.
-(pdftex.def)             Requested size: 234.5pt x 125.03639pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 263--264
- [][] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/ELOpre2.png' not found on input line 413.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:413: Package pdftex.def Error: File `Appendix/ELOpre2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.413 ...idth=0.5\textwidth]{Appendix/ELOpre2.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 413--415
+[][] 
  []
 
-[8 <./figure 5.png> <./figure 6.png> <./figure 7.png> <./figure 8.png>]
-<figure 10.png, id=240, 513.92pt x 341.275pt>
-File: figure 10.png Graphic file (type png)
-<use figure 10.png>
-Package pdftex.def Info: figure 10.png  used on input line 295.
-(pdftex.def)             Requested size: 234.5pt x 155.72299pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 295--296
- [][] 
+LaTeX Warning: File `Appendix/RewardPre2.png' not found on input line 416.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:416: Package pdftex.def Error: File `Appendix/RewardPre2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.416 ...h=0.5\textwidth]{Appendix/RewardPre2.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 416--418
+[][] 
  []
 
-<figure 11.png, id=242, 513.92pt x 306.14375pt>
-File: figure 11.png Graphic file (type png)
-<use figure 11.png>
-Package pdftex.def Info: figure 11.png  used on input line 304.
-(pdftex.def)             Requested size: 234.5pt x 139.69267pt.
 
-Overfull \hbox (5.0pt too wide) in paragraph at lines 304--305
- [][] 
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+
+LaTeX Warning: File `Appendix/LengthPre2.png' not found on input line 419.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:419: Package pdftex.def Error: File `Appendix/LengthPre2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.419 ...h=0.5\textwidth]{Appendix/LengthPre2.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 419--421
+[][] 
  []
 
-[9 <./figure 9.png> <./figure 10.png> <./figure 11.png>]
-Underfull \vbox (badness 1394) has occurred while \output is active []
 
- [10] (./selection.bbl) [11] (./selection.aux)
+LaTeX Warning: File `Appendix/BaselinePre2.png' not found on input line 422.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:422: Package pdftex.def Error: File `Appendix/BaselinePre2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.422 ...0.5\textwidth]{Appendix/BaselinePre2.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 422--424
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/PolicyPre2.png' not found on input line 425.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:425: Package pdftex.def Error: File `Appendix/PolicyPre2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.425 ...h=0.5\textwidth]{Appendix/PolicyPre2.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 425--427
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/ValuePre2.png' not found on input line 428.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:428: Package pdftex.def Error: File `Appendix/ValuePre2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.428 ...th=0.5\textwidth]{Appendix/ValuePre2.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 428--430
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [14]
+
+LaTeX Warning: File `Appendix/CombinedElo.png' not found on input line 431.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:431: Package pdftex.def Error: File `Appendix/CombinedElo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.431 ...=0.5\textwidth]{Appendix/CombinedElo.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 431--433
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/CombinedPLoss.png' not found on input line 434.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:434: Package pdftex.def Error: File `Appendix/CombinedPLoss.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.434 ....5\textwidth]{Appendix/CombinedPLoss.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 434--436
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/CombinedCumulative.png' not found on input line 437.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:437: Package pdftex.def Error: File `Appendix/CombinedCumulative.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.437 ...xtwidth]{Appendix/CombinedCumulative.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 437--439
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/SoundElo.png' not found on input line 440.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:440: Package pdftex.def Error: File `Appendix/SoundElo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.440 ...dth=0.5\textwidth]{Appendix/SoundElo.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 440--442
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+
+LaTeX Warning: File `Appendix/SoundPLoss.png' not found on input line 443.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:443: Package pdftex.def Error: File `Appendix/SoundPLoss.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.443 ...h=0.5\textwidth]{Appendix/SoundPLoss.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 443--445
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/SoundCumulative.png' not found on input line 446.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:446: Package pdftex.def Error: File `Appendix/SoundCumulative.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.446 ...\textwidth]{Appendix/SoundCumulative.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 446--448
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/EyesElo.png' not found on input line 449.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:449: Package pdftex.def Error: File `Appendix/EyesElo.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.449 ...idth=0.5\textwidth]{Appendix/EyesElo.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 449--451
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/EyesPLoss.png' not found on input line 452.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:452: Package pdftex.def Error: File `Appendix/EyesPLoss.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.452 ...th=0.5\textwidth]{Appendix/EyesPLoss.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 452--454
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [16]
+
+LaTeX Warning: File `Appendix/EyesCumulative.png' not found on input line 455.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:455: Package pdftex.def Error: File `Appendix/EyesCumulative.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.455 ...5\textwidth]{Appendix/EyesCumulative.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 455--457
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/CPUusage.png' not found on input line 458.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:458: Package pdftex.def Error: File `Appendix/CPUusage.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.458 ...dth=0.5\textwidth]{Appendix/CPUusage.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 458--460
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/RAMusage.png' not found on input line 461.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:461: Package pdftex.def Error: File `Appendix/RAMusage.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.461 ...dth=0.5\textwidth]{Appendix/RAMusage.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 461--463
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/figure 4.png' not found on input line 464.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:464: Package pdftex.def Error: File `Appendix/figure 4.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.464 ...th=0.45\textwidth]{Appendix/figure 4.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17]
+
+LaTeX Warning: File `Appendix/figure 6.png' not found on input line 468.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:468: Package pdftex.def Error: File `Appendix/figure 6.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.468 ...dth=0.5\textwidth]{Appendix/figure 6.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 468--470
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/EloBatchSize.PNG' not found on input line 471.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:471: Package pdftex.def Error: File `Appendix/EloBatchSize.PNG' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.471 ...0.5\textwidth]{Appendix/EloBatchSize.PNG}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 471--473
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/LossesBatchSize.PNG' not found on input line 474.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:474: Package pdftex.def Error: File `Appendix/LossesBatchSize.PNG' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.474 ...\textwidth]{Appendix/LossesBatchSize.PNG}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 474--476
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/EloFieldAmount.PNG' not found on input line 477.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:477: Package pdftex.def Error: File `Appendix/EloFieldAmount.PNG' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.477 ...8\textwidth]{Appendix/EloFieldAmount.PNG}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.61801pt too wide) in paragraph at lines 477--479
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+
+LaTeX Warning: File `Appendix/figure 9.png' not found on input line 480.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:480: Package pdftex.def Error: File `Appendix/figure 9.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.480 ...th=0.48\textwidth]{Appendix/figure 9.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.61801pt too wide) in paragraph at lines 480--482
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/figure 11.png' not found on input line 483.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:483: Package pdftex.def Error: File `Appendix/figure 11.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.483 ...th=0.5\textwidth]{Appendix/figure 11.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 483--485
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Figures/Figure 2.png' not found on input line 486.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:486: Package pdftex.def Error: File `Figures/Figure 2.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.486 ...idth=0.5\textwidth]{Figures/Figure 2.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 486--488
+[][] 
+ []
+
+
+LaTeX Warning: File `Figures/Figure 3.png' not found on input line 489.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:489: Package pdftex.def Error: File `Figures/Figure 3.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.489 ...idth=0.5\textwidth]{Figures/Figure 3.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 489--491
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+
+LaTeX Warning: File `Figures/Figure 7.png' not found on input line 492.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:492: Package pdftex.def Error: File `Figures/Figure 7.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.492 ...idth=0.5\textwidth]{Figures/Figure 7.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 492--494
+[][] 
+ []
+
+
+LaTeX Warning: File `Figures/Figure 8.png' not found on input line 495.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:495: Package pdftex.def Error: File `Figures/Figure 8.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.495 ...idth=0.5\textwidth]{Figures/Figure 8.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 495--497
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/LR 0001.png' not found on input line 498.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:498: Package pdftex.def Error: File `Appendix/LR 0001.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.498 ...dth=0.48\textwidth]{Appendix/LR 0001.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.61801pt too wide) in paragraph at lines 498--500
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/LR 0009.png' not found on input line 501.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:501: Package pdftex.def Error: File `Appendix/LR 0009.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.501 ...dth=0.48\textwidth]{Appendix/LR 0009.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (5.61801pt too wide) in paragraph at lines 501--503
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+
+LaTeX Warning: File `Appendix/baseline.png' not found on input line 504.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:504: Package pdftex.def Error: File `Appendix/baseline.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.504 ...dth=0.5\textwidth]{Appendix/baseline.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 504--506
+[][] 
+ []
+
+
+LaTeX Warning: File `Appendix/hidden units 256.png' not found on input line 507.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:507: Package pdftex.def Error: File `Appendix/hidden units 256.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.507 ...textwidth]{Appendix/hidden units 256.png}
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 507--509
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+LaTeX Warning: File `Appendix/hiddenunits 1024.png ' not found on input line 510.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:510: Package pdftex.def Error: File `Appendix/hiddenunits 1024.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 ...extwidth]{Appendix/hiddenunits 1024.png }
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 510--512
+[][] 
+ []
+
+
+LaTeX Warning: File `Figures/figure 5.png ' not found on input line 513.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:513: Package pdftex.def Error: File `Figures/figure 5.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.513 ...dth=0.5\textwidth]{Figures/figure 5.png }
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 513--515
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [21]
+
+LaTeX Warning: File `Figures/figure 10.png ' not found on input line 516.
+
+
+/Users/cemandrewgultekin/Documents/GitHub/MLAI-11/Latex Report/selection.tex:516: Package pdftex.def Error: File `Figures/figure 10.png' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.516 ...th=0.5\textwidth]{Figures/figure 10.png }
+                                                  \\
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (15.00002pt too wide) in paragraph at lines 516--518
+[][] 
+ []
+
+[22
+
+] (./selection.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
 
 
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+LaTeX Warning: There were undefined references.
 
-Package rerunfilecheck Info: File `selection.out' has not changed.
-(rerunfilecheck)             Checksum: 7F9A3659B981D1B20EB70233743A6D15;5017.
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `selection.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `selection.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  FED266229374EE0A90A740D2A56E7BEB;6357.
  ) 
 Here is how much of TeX's memory you used:
- 9789 strings out of 474116
- 148927 string characters out of 5743681
- 1948187 words of memory out of 5000000
- 31973 multiletter control sequences out of 15000+600000
- 566781 words of font info for 70 fonts, out of 8000000 for 9000
+ 10693 strings out of 474116
+ 192178 string characters out of 5743681
+ 1944187 words of memory out of 5000000
+ 32884 multiletter control sequences out of 15000+600000
+ 565211 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,9n,79p,2017b,466s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on selection.pdf (11 pages, 529697 bytes).
+ 75i,9n,79p,1873b,655s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb>
+Output written on selection.pdf (22 pages, 212821 bytes).
 PDF statistics:
- 335 PDF objects out of 1000 (max. 8388607)
- 280 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 288 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 178 compressed objects within 2 object streams
+ 71 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
