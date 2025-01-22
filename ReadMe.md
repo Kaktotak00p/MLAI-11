@@ -58,10 +58,10 @@ Run the following command to start the training using the in editor environment.
 python mlagents_cpu_monitor.py -e
 ~~~
 
-To run the training using the precompiled env first build the Unity scene. In order to do that, we open
+To run the training using the precompiled env first build the Unity scene. In order to do that, open
  the Unity Editor, go to File-> Build Settings...-> Add
- open scenes, and we add the correct scene - SoccerTwos.
- Then we click Build.  Once built provide the path to the environment using the --env flag.
+ open scenes and add the correct scene - SoccerTwos.
+ Then click Build.  Once built, provide the path to the environment using the --env flag.
 
 ~~~bash
 python mlagents_cpu_monitor.py --env path/to/your/build
